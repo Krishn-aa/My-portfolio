@@ -1,0 +1,290 @@
+@import url('http://fonts.cdnfonts.com/css/rockness');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-list{
+    list-style-type: none;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    
+}
+.menu-list li{
+    display: inline;
+    margin: auto 15px;
+    padding: 5px 5px;
+
+    
+}
+.menu-list a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+}
+
+.menu-list a:hover{
+
+    transform: scale(1.15);
+    color: brown !important;  
+    transition: 0.5s;
+    
+}
+.menu-list a:visited{
+
+    color: black;
+}
+.wallpaper{
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+}
+.second-container{
+    background-color: #e7f3ff;
+}
+
+.welcome{
+    font-family: 'Rockness', sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.h2-one{
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+    color: #8B6F7C;
+    font-size: 23px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    text-transform: none;
+}
+
+.para-one{
+    font-family: 'Montserrat', sans-serif;
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.social-site-icons{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.social-site-icons img{
+    height: 50px;
+
+}
+.social-site-icons li{
+    display: inline;
+    margin: 0px 12px;
+}
+.third-container{
+    background-image: url('Resources/Flowers.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+.latest-project{
+    font-family: 'Rockness', sans-serif;
+    text-decoration: wavy;
+    font-size: 80px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.project-button{
+    background-color: #ffdccc;
+    padding-top: 8px;
+    padding: 12px 36px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    color: #8b6f7c;
+}
+.project-button:hover{
+    background-color: #ffe4d4;
+    cursor: pointer;
+}
+
+.fourth-container{
+    margin-top: 50px;
+    background-color: #e7f3ff;
+    text-align: center;
+}
+.para-two{
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    margin: 40px auto 0px;
+    text-align: center;
+    line-height: 1.8em;
+
+}
+.my-work{
+    font-family: 'Rockness', sans-serif;
+    text-decoration: wavy;
+    font-size: 80px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.work-button{
+    background-color: #ffdccc;
+    padding: 12px 36px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    color: #8b6f7c;
+}
+.work-button:hover{
+    background-color: #ffe4d4;
+    cursor: pointer;
+}
+
+.fifth-container{
+    background-color: white;
+    height: 615px;
+}
+
+.fifth-container-one{
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+}
+.keep-in-touch{
+    font-family: 'Rockness', sans-serif;
+    text-decoration: wavy;
+    font-size: 70px;
+    font-weight: 500;
+    display: block;
+    padding-top: 80px;
+    text-align: center;
+}
+.h2-three{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    color: #8B6F7C;
+    font-size: 23px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+}
+
+.fifth-container-two{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right:30px ;
+    width: 49%;
+    float: left;
+    background-color: #ffdccc;
+}
+
+.h2-fun{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    color: #272727;
+    font-size: 23px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+.input-form{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 1em;
+    width: 200px;
+}
+#sign-up-button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    
+}
+#sign-up-button:hover{
+    cursor: pointer;
+    background-color: rgb(46, 45, 45);
+}
+
+
+
+.sixth-container{
+    background-color: #e7f3ff;
+}
+
+.h2-four{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 90px;
+    text-align: center;
+    color: #8B6F7C;
+    font-size: 23px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+}
+
+.software-icons{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.software-icons img{
+    height: 60px;
+}
+.software-icons li{
+    display: inline;
+    margin: 0px 18px;
+}
+
+.footer-container{
+    background-color: #ffdccc;
+    text-align: center;
+}
+
+#footer-icons{
+    padding: 50px;
+}
+
+.para-footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #8B6F7C;
+    font-size: 14px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+}
+
